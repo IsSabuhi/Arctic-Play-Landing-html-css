@@ -14,7 +14,6 @@
 
 .afcslogo {
   width: 67px;
-
 }
 
 .faq-text {
@@ -514,6 +513,32 @@ h6 {
   left: 0;
   right: 0;
 }
+
+.new_img {
+  display: table-cell;
+  width: 45%;
+  height: 100%;
+  position: relative;
+}
+.new_text {
+    display: table-cell;
+    width: 55%;
+    padding: 50px 50px 35px 50px;
+    vertical-align: middle;
+}
+.new {
+  margin-top: 20px;
+  background-color: #161616;
+  border-radius: 2px;
+  display: table;
+  width: 100%;
+  color: #fff;
+  min-height: 420px;
+}
+.new_block.white{
+  background: #fff;
+}
+
 
 #hero .hero-container {
   position: absolute;
