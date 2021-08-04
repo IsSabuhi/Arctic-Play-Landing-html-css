@@ -812,6 +812,14 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+.sectiontitle{
+  font-size: 60px;
+  color: white;
+  text-align-last: center;
+  margin-top: -55px;
+  font-family: bold;
+}
+
 .clients {
   padding: 15px 0;
   text-align: center;
