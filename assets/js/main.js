@@ -1,9 +1,3 @@
-/**
-* Template Name: Valera - v4.1.0
-* Template URL: https://bootstrapmade.com/valera-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -118,7 +112,7 @@
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
+    select('#navbar').classList.toggle('navbar-mobile') 
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
@@ -270,9 +264,8 @@ function getTimeRemaining(endtime) {
 }
 
 //Время обратного отсчета
-
 document.addEventListener('DOMContentLoaded', function () {
-  // конечная дата, например 1 июля 2021
+  // конечная дата
   const deadline = new Date(2021, 07, 10);
   // id таймера
   let timerId = null;
