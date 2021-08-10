@@ -1,0 +1,16 @@
+version: '2.4'
+
+services:
+  landing:
+    restart: always
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "22050:80"
+    mem_limit: 400MB
+    cpus: 1
+    hostname: arctic-play-landing
+    container_name: arctic-play-landing
+    image: arctic-play-landing:latest
+

@@ -1,0 +1,13 @@
+image: ...
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - CI=false
+    - docker-compose up --force-recreate --build -d
+  only:
+    - master
+
