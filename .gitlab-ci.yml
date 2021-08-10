@@ -10,4 +10,6 @@ build:
     - docker-compose up --force-recreate --build -d
   only:
     - master
+  tags:
+    - gR1
 
