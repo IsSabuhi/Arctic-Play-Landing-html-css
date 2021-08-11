@@ -401,7 +401,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: none;
+  background: rgba(0, 0, 0, 0.9);;
   transition: 0.3s;
   z-index: 999;
 }
